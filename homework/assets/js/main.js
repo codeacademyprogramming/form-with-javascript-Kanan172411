@@ -24,7 +24,7 @@ button.onclick = function () {
     }
     else {
         errorText.classList.add('d-none');
-        alert('you have successfully submitted this form');
+        alert('Registration process successfully completed');
         var firstName = input.value;
         sessionStorage.setItem("firstname", firstName);
         var lastname = input1.value;
