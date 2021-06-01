@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <div class="mb-3">
+            <label for="exampleInputFirstName1" class="form-label myform">Firstname</label>
+            <input type="firstname" class="form-control my-input" id="exampleInputFirstName1" placeholder="Firstname">
+        </div>
+        <div>
+            <span class="text-danger d-none firstname-error">Please type your firstname (min 3 symbol, max 50 symbol)</span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputLastName1" class="form-label myform">Lastname</label>
+            <input type="lastname" class="form-control my-input1" id="exampleInputLastName1" placeholder="Lastname">
+        </div>
+        <div>
+            <span class="text-danger d-none lastname-error">Please type your lastname (min 3 symbol, max 50 symbol)</span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label myform">Email address</label>
+            <input type="email" class="form-control my-input2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+        </div>
+        <div>
+            <span class="text-danger d-none email-error">Please type your email address (min 3 symbol, max 100 symbol and must include "@")</span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label myform">Password</label>
+            <input type="password" class="form-control my-input3" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div>
+            <span class="text-danger d-none password-error">Please type your password</span>
+        </div>
+        <button class="mt-2 btn btn-primary my-custom-button">Submit</button>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
